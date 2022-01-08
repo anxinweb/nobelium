@@ -12,10 +12,10 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2020, // If leave this empty, current year will be used.
   postsPerPage: 6,
-  sortByDate: false,
+  sortByDate: true,
   showAbout: true,
   showArchive: true,
-  autoCollapsedNavBar: true
+  autoCollapsedNavBar: false
   , // The automatically collapsed navigation bar
   ogImageGenerateURL: '',//'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: '',//'https://twitter.com/craigaryhart',
@@ -45,7 +45,7 @@ const BLOG = {
       admin: [],
       clientID: '',
       clientSecret: '',
-      distractionFreeMode: false
+      distractionFreeMode: true
     },
     utterancesConfig: {
       repo: ''
