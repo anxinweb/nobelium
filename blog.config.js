@@ -1,8 +1,8 @@
 const BLOG = {
-  title: '新的笔记',
+  title: '新·记',
   author: 'xin',
   email: 'fangsxin@qq.com',
-  link: '#',
+  link: '',
   description: '记录生活分享生活.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
